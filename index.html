@@ -2,58 +2,95 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بوابة URG التعريفية</title>
+    <title>URG | البوابة الرسمية</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Tajawal', sans-serif; background-color: #050505; color: #e4e4e7; }
-        .glow-red { box-shadow: 0 0 20px rgba(220, 38, 38, 0.3); }
-        .glass { background: rgba(15, 15, 15, 0.8); backdrop-filter: blur(10px); border: 1px solid #27272a; }
+        body { font-family: 'Tajawal', sans-serif; background: #050505; color: #fff; }
+        .hero-section { background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url('https://images.unsplash.com/photo-1544274954-846114389012?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); background-size: cover; background-position: center; }
     </style>
 </head>
-<body class="min-h-screen">
+<body>
 
-    <header class="p-6 border-b border-zinc-800 flex justify-between items-center bg-black">
-        <h1 class="text-3xl font-black text-red-600 tracking-tighter">URG <span class="text-white">PORTAL</span></h1>
-        <a href="https://discord.gg/csfUXmebjp" target="_blank" class="bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-full font-bold transition glow-red">انضم للديسكورد</a>
+    <nav class="flex justify-between items-center p-6 bg-black border-b border-red-900/50 sticky top-0 z-50">
+        <div class="text-2xl font-black text-red-600 tracking-widest">URG RP</div>
+        <a href="https://discord.gg/csfUXmebjp" target="_blank" class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded font-bold transition">الديسكورد</a>
+    </nav>
+
+    <header class="hero-section h-[40vh] flex flex-col justify-center items-center text-center p-6">
+        <h1 class="text-5xl font-black mb-4">بوابة <span class="text-red-600">URG</span> الرسمية</h1>
+        <p class="text-zinc-400 text-lg">الدستور والقوانين الشاملة للمقاطعة</p>
     </header>
 
-    <main class="max-w-4xl mx-auto p-6 mt-10">
+    <main class="max-w-4xl mx-auto p-6 space-y-4">
         
-        <div class="glass p-8 rounded-2xl mb-10 border-r-4 border-red-600">
-            <h2 class="text-4xl font-black mb-4">أهلاً بك في مقاطعة URG</h2>
-            <p class="text-zinc-400 text-lg">بوابتك الرسمية لمعرفة القوانين، الأنظمة، وكل ما تحتاجه لتكون مواطناً مثالياً في سيرفرنا. نهدف دائماً لرقي الرول بلاي والواقعية.</p>
-        </div>
-
-        <div class="space-y-6">
-            <h3 class="text-2xl font-bold border-b border-zinc-800 pb-2">📜 دستور المقاطعة</h3>
-            
-            <div class="glass p-6 rounded-xl">
-                <h4 class="text-xl font-bold text-red-500 mb-2">1. الاحترام والمجتمع</h4>
-                <p class="text-zinc-300 leading-relaxed">يُمنع منعاً باتاً التلفظ بأي ألفاظ خارجة أو إثارة الفتن. يجب على الجميع احترام الرتب والأعضاء، وأي تجاوز سيتم التعامل معه بإجراءات إدارية حازمة.</p>
+        <details class="bg-zinc-900 border border-zinc-800 rounded-lg p-5">
+            <summary class="font-bold cursor-pointer text-red-500">1. قوانين مجتمع الديسكورد</summary>
+            <div class="mt-4 text-zinc-300 space-y-2 text-sm leading-relaxed">
+                <p><strong>المادة (1-1): السلوك العام والتفاعل المجتمعي:</strong> الاحترام الإلزامي: يُحظر استخدام الألفاظ النابية، السب، الشتم، القذف، أو التلميحات غير اللائقة. العنصرية والسياسة: يُمنع التطرق للمواضيع السياسية، الطائفية، القبلية، أو العنصرية. الاحترام الإداري: قرارات المشرفين واجبة التنفيذ، والاعتراض يتم عبر تذكرة شكوى فقط.</p>
+                <p><strong>المادة (1-2): الحسابات والهوية:</strong> يجب تغيير اسم الديسكورد ليكون اسماً واقعياً ثنائياً (مثال: عمر الراشدي)، ويُمنع استخدام الحسابات البديلة نهائياً.</p>
+                <p><strong>المادة (1-3): الإعلانات والتكرار:</strong> يُحظر نشر الروابط الخارجية أو المنشن العشوائي للإدارة دون سبب طارئ.</p>
             </div>
+        </details>
 
-            <div class="glass p-6 rounded-xl">
-                <h4 class="text-xl font-bold text-red-500 mb-2">2. قوانين الرول بلاي (RP)</h4>
-                <p class="text-zinc-300 leading-relaxed">الواقعية هي أساس سيرفرنا. يُمنع القتل العشوائي (RDM)، الدهس العشوائي (VDM)، والقيادة غير الواقعية. تقدير الحياة واجب على كل لاعب.</p>
+        <details class="bg-zinc-900 border border-zinc-800 rounded-lg p-5">
+            <summary class="font-bold cursor-pointer text-red-500">2. قوانين الرول بلاي العامة</summary>
+            <div class="mt-4 text-zinc-300 space-y-2 text-sm leading-relaxed">
+                <p><strong>المادة (2-1):</strong> تتضمن قوانين تقدير الحياة، منع الرول بلاي الفاشل، منع القتل والدهس العشوائي (RDM/VDM)، منع الهروب من السيناريو، وعدم الخلط بين الواقع واللعبة.</p>
+                <p><strong>المادة (2-2):</strong> المناطق الآمنة (المستشفى، قسم الشرطة، الكراج، محلات التعديل) يمنع فيها إشهار الأسلحة أو القتال أو أي نشاط إجرامي.</p>
             </div>
+        </details>
 
-            <div class="glass p-6 rounded-xl">
-                <h4 class="text-xl font-bold text-red-500 mb-2">3. التعامل مع القطاعات</h4>
-                <p class="text-zinc-300 leading-relaxed">الشرطة والإسعاف يؤدون واجبهم. يُمنع عرقلة عملهم أثناء تأدية المهام الرسمية، ويجب الامتثال لأوامر رجال الأمن في المواقف الميدانية.</p>
+        <details class="bg-zinc-900 border border-zinc-800 rounded-lg p-5">
+            <summary class="font-bold cursor-pointer text-red-500">3. قوانين قطاع الشرطة والشيريف</summary>
+            <div class="mt-4 text-zinc-300 space-y-2 text-sm leading-relaxed">
+                <p><strong>المادة (3-1):</strong> الالتزام بالزي الرسمي، احترام المدنيين، وقراءة التهم عند التوقيف.</p>
+                <p><strong>المادة (3-2):</strong> استخدام السلاح الناري يكون فقط في حال الخطر المباشر، والاعتماد أولاً على الصاعق الكهربائي.</p>
+                <p><strong>المادة (3-3):</strong> الشرطة داخل المدينة، والشيريف للطرق السريعة والمناطق الريفية.</p>
             </div>
+        </details>
 
-            <div class="glass p-6 rounded-xl">
-                <h4 class="text-xl font-bold text-red-500 mb-2">4. المناطق الآمنة</h4>
-                <p class="text-zinc-300 leading-relaxed">يُمنع ارتكاب أي عمل إجرامي (خطف، سرقة، إشهار سلاح) داخل المستشفيات، مراكز الشرطة، ومواقف السيارات العامة.</p>
+        <details class="bg-zinc-900 border border-zinc-800 rounded-lg p-5">
+            <summary class="font-bold cursor-pointer text-red-500">4. قوانين قطاع الدفاع المدني والصحة</summary>
+            <div class="mt-4 text-zinc-300 space-y-2 text-sm leading-relaxed">
+                <p><strong>المادة (4-1):</strong> علاج الجميع بدون تمييز، والحياد التام عن النزاعات المسلحة، ومنع حمل السلاح.</p>
+                <p><strong>المادة (4-2):</strong> منع دخول مناطق الاشتباك النشطة حتى تأمين الموقع من قبل الشرطة.</p>
             </div>
-        </div>
+        </details>
 
-        <footer class="mt-20 py-10 text-center border-t border-zinc-900 text-zinc-600">
-            <p>URG Server © 2026 - جميع الحقوق محفوظة</p>
-        </footer>
+        <details class="bg-zinc-900 border border-zinc-800 rounded-lg p-5">
+            <summary class="font-bold cursor-pointer text-red-500">5. قوانين قطاع كراج الميكانيكي</summary>
+            <div class="mt-4 text-zinc-300 space-y-2 text-sm leading-relaxed">
+                <p><strong>المادة (5-1):</strong> سحب السيارات المتعطلة والالتزام بالتسعيرة الرسمية.</p>
+                <p><strong>المادة (5-2):</strong> منع التعديلات غير الواقعية على مركبات الدولة.</p>
+            </div>
+        </details>
+
+        <details class="bg-zinc-900 border border-zinc-800 rounded-lg p-5">
+            <summary class="font-bold cursor-pointer text-red-500">6. قوانين ونظام العصابات</summary>
+            <div class="mt-4 text-zinc-300 space-y-2 text-sm leading-relaxed">
+                <p><strong>المادة (6-1):</strong> التزام العصابات بألوانها الموحدة (الأخضر للقروف، البنفسجي للبالاس) وتنظيم السرقات.</p>
+                <p><strong>المادة (6-2):</strong> الرهائن يجب أن يكونوا لاعبين حقيقيين والمطالب يجب أن تكون منطقية وواقعية.</p>
+            </div>
+        </details>
+
+        <details class="bg-zinc-900 border border-zinc-800 rounded-lg p-5">
+            <summary class="font-bold cursor-pointer text-red-500">7. قوانين عامة ومكملة</summary>
+            <div class="mt-4 text-zinc-300 space-y-2 text-sm leading-relaxed">
+                <p>الالتزام بالرادارات المرورية، منع حمل الأسلحة الثقيلة علناً، وتجريم البلاغات الوهمية (911).</p>
+            </div>
+        </details>
+
+        <details class="bg-zinc-900 border border-zinc-800 rounded-lg p-5">
+            <summary class="font-bold cursor-pointer text-red-500">8. قوانين الملاحقات والمطاردات</summary>
+            <div class="mt-4 text-zinc-300 space-y-2 text-sm leading-relaxed">
+                <p>يُسمح بالـ PIT بعد دقيقتين من المطاردة، ويُمنع وضع الأشواك في المناطق الآمنة.</p>
+            </div>
+        </details>
+
     </main>
+
+    <footer class="text-center p-10 text-zinc-700 text-sm">URG Server RP - 2026 ©</footer>
 
 </body>
 </html>
